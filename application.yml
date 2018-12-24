@@ -6,4 +6,3 @@ management:
       exposure:
         include:
         - refresh
-        - bus-refresh
