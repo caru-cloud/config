@@ -7,9 +7,10 @@ eureka:
       defaultZone: http://localhost:9000/eureka/
 
 management:
-  endpoints:
+  endpoint:
     shutdown:
-      enabled: true
+      enabled: true  
+  endpoints:
     web:
       exposure:
         include:
