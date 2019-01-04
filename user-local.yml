@@ -6,8 +6,21 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:9000/eureka/
 
+management:
+  endpoints:
+    shutdown:
+      enabled: true
+    web:
+      exposure:
+        include:
+          - refresh
+          - shutdown
 
-
+spring:
+  security:
+    user:
+      name: caru
+      password: rudeo512
 
 
 
