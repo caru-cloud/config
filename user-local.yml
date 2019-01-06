@@ -8,7 +8,7 @@ eureka:
   instance:
     leaseRenewalIntervalInSeconds: 1
     leaseExpirationDurationInSeconds: 2
-    instanceld: ${spring.application.name}-${spring.cloud.client.hostname}-${server.port}
+    instanceId: ${spring.application.name}-${spring.cloud.client.hostname}-${server.port}
 
 management:
   endpoint:
